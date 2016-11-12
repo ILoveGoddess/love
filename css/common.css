@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* 把默认的外边距，内边距设置为零 */
+a,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,iframe,img,li,ol,p,span,ul{
+    margin:0;padding:0;
+}
+ol,ul{
+    list-style:none;
+}
+body{
+    font:12px/150% Arial,Verdana;
+    color:#666;
+    background:#fff;
+}
+a{
+    color:#666;
+    text-decoration:none;
+}
+/*a:hover{
+    color:#C81623;
+}*/
+
+.cw-icon{
+    /*position:relative;*//*-------------------------------------------bug----------------------------------------------------*/
+    cursor:pointer;
+    zoom:1;
+}
+.cw-icon .i,.cw-icon i{
+    display:block;
+    position:absolute;
+    overflow:hidden;
+}
+/*.clear,*/
+.clr{
+    display:block;
+    overflow:hidden;
+    clear:both;
+    height:0;
+    line-height:0;
+    font-size:0;
+}
+.hide{
+    display:none;
+}
+#shortcut-2014 li.dorpdown{
+    z-index:13
+}
+#shortcut-2014 li.hover{
+    padding:0 1px
+}
+#shortcut-2014 .dd{
+    line-height:24px
+}
+.dorpdown{
+    position:relative;
+}
+.dorpdown:hover .dorpdown-layer,.hover .dorpdown-layer{
+    display:block;
+}
+
+#lifeserv .mt,#news .mt{
+    padding:0 15px;
+    border-bottom:1px dotted #E8E8E7;
+    height:43px;line-height:43px;
+}

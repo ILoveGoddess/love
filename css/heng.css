@@ -1,0 +1,801 @@
+@charset "UTF-8";
+#shortcut-2014{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    background:#F1F1F1;
+}
+
+#shortcut-2014 li{
+    float:left;
+    height:30px;
+    padding:0 2px;
+}
+
+.fr{
+    float:right;
+}
+
+.w{
+    width:1210px;
+}
+
+#shortcut-2014 #ttbar-login{
+    margin-right:10px;
+}
+
+#shortcut-2014 li.spacer{
+    width:1px;
+    height:12px;
+    margin-top:9px;
+    padding:0;
+    background:#ddd;
+    overflow:hidden;
+}
+
+#ttbar-heng .dt{
+    width:49px;
+    padding-right:25px;
+}
+
+#shortcut-2014 li#ttbar-heng.hover,#shortcut-2014 li#ttbar-heng:hover{
+    padding:0 0 0 1px;
+    background: #fff;
+}
+
+#ttbar-heng .dorpdown-layer{
+    width:280px;
+}
+
+#shortcut-2014 .dt{
+    float:left;
+    padding:0 8px;
+}
+
+#shortcut-2014 li.dorpdown:hover .dt{
+    background:#fff;
+    border:solid #ddd;
+    border-width:0 1px;
+}
+
+#shortcut-2014 li.dorpdown:hover{
+    padding:0 1px;
+    background: red;
+}
+
+#shortcut-2014 #ttbar-apps .dt{
+    padding-left:25px;
+    padding-right:25px;
+}
+
+#shortcut-2014 li#ttbar-apps.hover,#shortcut-2014 li#ttbar-apps:hover{
+    padding:0 0 0 1px;
+    background: #fff;
+}
+
+#shortcut-2014 #ttbar-atte .dt,#shortcut-2014 #ttbar-serv .dt{
+    width:49px;
+    padding-right:25px;
+}
+
+#shortcut-2014 li#ttbar-atte.hover,#shortcut-2014 li#ttbar-atte:hover{
+    padding:0 0 0 1px;
+    background: #fff;
+}
+
+#shortcut-2014 li#ttbar-serv.hover,#shortcut-2014 li#ttbar-serv:hover{
+    padding:0 0 0 1px;
+    background: #fff;
+}
+
+#shortcut-2014 li#ttbar-navs{
+    padding:0 1px 0 2px;
+}
+
+#shortcut-2014 li#ttbar-navs.hover,#shortcut-2014 li#ttbar-navs:hover{
+    padding:0 0 0 1px;
+    background: #fff;
+}
+
+#shortcut-2014 #ttbar-navs .dt{
+    width:49px;
+    padding-right:25px;
+}
+/*---------------------------------------------最上面的请登录或者注册样式已完成-----------------------------------------*/
+
+#logo-2014{
+    position:relative;
+    z-index:12;
+    float:left;
+    width:362px;
+    height:60px;
+    padding:20px 0;
+}
+
+#logo-2014 .logo{
+    display:block;
+    width:270px;
+    height:70px;
+    background:url(../image/house.jpeg) no-repeat 0 0;
+    text-indent:-20000px;
+    border-radius: 50%;
+}
+
+/*-----------------------------------------------logo-2014下的图标已完成---------------------------------------------*/
+#search-2014{
+    position:relative;
+    z-index:11;
+    float:left;
+    width:462px;
+    margin-top:25px;
+}
+
+#shelper{
+    overflow:hidden;
+    position:absolute;
+    top:36px;left:0;
+    width:379px;
+    border:1px solid #CCC;
+    background:#fff;
+    height: 111px;
+}
+
+#shelper{
+    width:445px;
+}
+
+#search-2014 .form{
+    width:538px;
+    height:36px;
+}
+
+#search-2014 .text{
+    float:left;
+    width:370px;
+    height:36px;
+    line-height:36px;
+    color:#666;
+    padding:4px;
+    margin-bottom:4px;
+    border-width:2px 0 2px 2px;
+    border-color:#B61D1D;
+    border-style:solid;
+    outline:none;
+    font-size:14px;
+    font-family:"microsoft yahei";
+}
+
+#search-2014,#search-2014 .form{
+    width:auto;
+    width:538px;
+}
+
+#search-2014 .text{
+    width:446px;
+}
+#search-2014 .button{
+    float:left;
+    width:92px;
+    height:36px;
+    background:#B61D1D;
+    border:none;
+    line-height:1;
+    color:#fff;
+    font-family:"Microsoft YaHei";
+    font-size:16px;
+    cursor:pointer;
+}
+
+#search-2014 .cw-icon i{
+    top:0;
+    left:0;
+    width:82px;
+    height:36px;
+}
+
+/*----------------------------------------------------搜索框已完成--------------------------------------------------*/
+#settleup-2014{
+    float:right;
+    z-index:11;
+    height:36px;
+    margin-top:25px;
+}
+
+#settleup-2014 .cw-icon{
+    width:75px;
+    height:34px;
+    border:1px solid #DFDFDF;
+    padding:0 28px 0 36px;
+    background:#F9F9F9;
+    text-align:center;
+    line-height:34px;
+}
+
+#settleup-2014 .ci-left{
+    top:9px;
+    left:18px;
+    width:18px;
+    height:16px;
+    background:url(../image/money.jpg) -20px -123px no-repeat;
+}
+
+#settleup-2014 .ci-right{
+    top:11px;
+    right:10px;
+    width:7px;
+    height:13px;
+    overflow:hidden;
+    font:400 13px/13px simsun;
+    color:#999;
+}
+
+.dorpdown-layer{
+    display:block;
+    position:absolute;
+}
+
+#settleup-2014.hover .cw-icon,#settleup-2014.hover .dorpdown-layer,
+#settleup-2014:hover .cw-icon,#settleup-2014:hover .dorpdown-layer{
+    background:#fff;
+    border:1px solid #ddd;
+    box-shadow:0 0 5px rgba(0,0,0,.2);
+}
+
+#settleup-2014.hover .dorpdown-layer,#settleup-2014:hover .dorpdown-layer{
+    display:block;
+    right:0;right:-1px;
+    width:408px;
+}
+/*---------------------------------------修改购物车下拉框大小------------------------------------------------*/
+
+#settleup-2014.hover .spacer,#settleup-2014:hover .spacer{
+    position:absolute;
+    right:0;
+    top:-7px;
+    width:139px;
+    height:12px;
+    background:#fff;
+}
+
+#settleup-content{
+    position:relative;
+    z-index:2;
+    width:100%;
+    background:#fff;
+}
+
+#settleup-content .loading{
+    display:block;
+    height:300px;
+    background:url(../image/money.jpg) no-repeat center center;
+    border-radius: 50%;
+}
+/*---------------------------------------------------修改购物车下拉框大小---------------------------------------------*/
+#settleup-2014{
+    margin-right:65px;
+}
+/*可以改购物车的位置--------------------------------------*/
+#hotwords-2014{
+    float:left;
+    width:462px;
+    height:20px;
+    line-height:20px;
+    overflow:hidden;
+}
+
+#hotwords-2014{
+    width:538px;
+}
+/*----------------------------------------------------我的购物车已完成------------------------------------------------*/
+#nav-2014{
+    height:40px;
+    border-bottom:2px solid #B1191A;/*------------------------一条红线-------------------------------------------*/
+    _overflow:hidden;
+}
+/*---------------------------------------------------------一条线---------------------------------------------------*/
+#nav-2014 .w-spacer{
+    position:absolute;
+    top:-1px;
+    z-index:1;
+    width:100%;
+    height:44px;
+    border-top:1px solid #DDD;
+    border-bottom:2px solid #B1191A;
+    display: none;
+}
+/*------------------------------------------------一条线-----------------------------------------------------------------*/
+.topmenu{
+    width:220px;
+    border:2px solid #e4393c;
+    margin:0;padding:0;
+}
+
+.toptitle{
+    height:40px;
+    line-height:40px;
+    text-align:left;
+    font-size:11px;
+    font-weight:bold;
+    color:white;
+    background:#e4393c;
+    padding-left:20px;
+}
+
+.topmenu li{
+    height:30px;
+    line-height:30px;
+    font-size:11px;
+    text-align:left;
+    padding-left:8px;
+    z-index:3;
+    background-image:url(../image/lvxing.png);
+    background-repeat:no-repeat;
+    background-position:right;
+}
+             
+.topmenu li a{
+    text-decoration:none;
+    color:#313131;
+}
+             
+.topmenu li a:hover{
+    text-decoration:underline;
+    font-weight:bold;
+    color:#e4393c;
+}
+
+.topmenu .lihover{
+    border:1px solid #DDD;
+    border-right:0;
+    box-shadow:0 0 8px 4px #DDD;
+    -moz-box-shadow:0 0 8px 4px #DDD;
+    -webkit-box-shadow:0 0 8px 4px #DDD;
+    background-image:none;
+}
+             
+.submenu{
+    display:none;
+    width:750px;
+    position:absolute;
+    left:220px;
+    top:40px;
+    border:1px solid #DDD;
+    z-index:4;background:white;
+    box-shadow:0 0 8px 4px #DDD;
+    -moz-box-shadow:0 0 8px 4px #DDD;
+    -webkit-box-shadow:0 0 8px 4px #DDD;
+}
+             
+.leftdiv{
+    float:left;
+    width:490px;
+    margin:5px;
+}
+             
+.rightdiv{
+    float:left;
+    width:200px;
+    margin:5px;
+}
+
+.topmenu .lihover .submenu{
+    display:block;
+}
+
+.topmenu .lihover span{
+    background:white;
+    display:inline-block;
+    z-index:20;
+    width:20px;
+    height:30px;
+    float:right;
+    position:relative;
+}
+             
+.leftdiv dl{
+    display:block;
+    border-bottom:1px solid #EEE;
+    padding-bottom:6px;
+    overflow:hidden;
+}
+             
+.leftdiv dl dt{
+    display:block;
+    float:left;
+    width:60px;
+    text-align:right;
+    height:22px;
+    line-height:22px;
+    padding-right:6px;
+    color:#e4393c;
+    font-weight:bold;
+    text-decoration:underline;
+    font-size:10pt;
+}
+             
+.leftdiv dl dt a{
+    color:#e4393c;
+    font-size:10pt;
+    font-weight:bold;
+    text-decoration:underline;
+}
+             
+.leftdiv dl dd{
+    display:block;
+    overflow:hidden;
+}
+             
+.leftdiv dl dd a{
+    display:block;
+    float:left;
+    border-left:1px solid #CCC;
+    color:#737373;
+    font-size:9pt;
+    padding:0 8px;
+    height:14px;
+    line-height:14px;
+    margin:4px 0;
+}
+             
+.rightdiv dl dd{
+    margin:3px 0;
+}
+             
+.rightdiv dl dt{
+    color:#e4393c;
+    font-size:10pt;
+    font-weight:bold;
+}
+             
+.rightdiv dl dd a{
+    font-size:9pt;
+    color:#737373;
+    line-height:22px;
+}
+             
+.rightdiv dl dd a:hover{
+    color:#737373;
+    font-weight:normal;
+}
+             
+.rightdiv dl dd a img{
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    -webkit-box-shadow:0 0 10px 5px #000;
+    -moz-box-shadow:0 0 10px 5px #000;
+    box-shadow:0 0 10px 5px #000;
+    width:240px;
+    height:100px;
+}
+/*--------------------------------------------------全部商品分类已完成-------------------------------------------------*/
+#navitems-2014{
+    float:left;
+    position:absolute;
+    top:131px;
+    left: 240px;
+    z-index:2;
+}
+/*-----------------------------------------------服装城、美术馆、生鲜、全球购的位置-------------------------------------*/
+#navitems-2014 .spacer,#navitems-2014 a,#navitems-2014 li,#navitems-2014 ul{
+    float:left;
+}
+
+#navitems-2014 a{
+    height:44px;
+    padding:0 20px;
+    text-align:center;
+    text-decoration:none;
+    font:400 15px/44px "microsoft yahei";
+    color:#333;
+}
+
+#navitems-2014 a:hover{
+    color:#C81623;
+}
+
+#navitems-2014 .spacer{
+    width:2px;
+    height:24px;
+    margin:10px 0 0;
+    background:#DDD;
+    overflow:hidden;
+}
+/*------------------------------------------------------------小红丨线-----------------------------------------*/
+#navitems-2014 .spacer{
+    display:block;
+}
+/*-----------------------------------------------------小红丨线------------------------------------------*/
+
+
+/*-----------------------------------------------服装城、美术馆、生鲜、全球购已完成-----------------------------------*/
+/*---------------------------------------------------我是焦点图-----------------------------------------------------*/
+#focus{
+    margin:0 auto;
+    width:1210px;
+}
+#focus{
+    margin:0 auto;
+    width:990px;
+    position:relative;
+    background: red;
+    display: none;/*---------------------------------------------------------------------------------------*/
+}
+#focus .slider{
+    height:466px;
+    background: green;
+}
+/*------------------------------------------------我是焦点图-----------------------------------------------*/
+/*------------------------------------------------可以改变love快报的位置----------------------------------------------*/
+#focus-extra{
+    position:relative;
+    z-index:8;
+    top:6px;
+    left:3%;
+}
+
+#lifeserv,#news{
+    position:absolute;
+    right:0;
+    padding:0;
+    background:rgba(255,255,255,.85);
+}
+/*------------------------------------------------可以改变love快报的位置-------------------------------------------------*/
+
+#news{
+    height:200px;
+    width:248px;
+    overflow:hidden;
+    top:12px;
+    border:solid 1px #e4e4e4;
+    border-bottom:0;
+}
+
+.w #news{
+    height:999px;/*--------------------------------------可以改变网页的整体高度---------------------------------------------------*/
+}
+
+.w #news .mt{
+    height:32px;
+    line-height:32px;
+}
+
+#focus-extra h2{
+    float:left;
+}
+
+#focus-extra .mt .extra{
+    float:right;
+    font-family:consolas;
+}
+
+.w #news .mc{
+    height:120px;
+    padding-top:5px;
+}
+
+#news .mc{
+    height:140px;
+    padding:8px 0 0 15px;
+}
+
+#news .mc li{
+    line-height:24px;
+    height:24px;
+}
+
+#news li span{
+    font-weight:bold;
+    margin-right:5px;
+}
+
+/*-----------------------------------------------------love快报-------------------------------------------------------*/
+.w #lifeserv{
+    top:176px;
+    border-top:solid 1px #e4e4e4;
+}
+
+#lifeserv{
+    top:213px;
+    border:solid 1px #e4e4e4;
+    border-top:dashed 1px #e4e4e4;
+    overflow:hidden;
+    width:248px;
+}
+
+.w #lifeserv .mt{
+    display:block;
+}
+
+#lifeserv .mc{
+    height:208px;
+    position:relative;
+}
+
+#lifeserv ul{
+    position:relative;
+    width:260px;
+    height:209px;
+    overflow:hidden;
+}
+
+#lifeserv li{
+    position:relative;
+    float:left;
+    display:inline;
+    width:62px;
+    height:70px;
+    border-right:1px solid #E8E8E7;
+    border-bottom:1px solid #E8E8E7;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+#lifeserv li a{
+    display:block;
+    width:62px;
+    height:28px;
+    padding-top:41px;
+    line-height:28px;
+    text-align:center;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#lifeserv .ci-left{
+    top:13px;
+    left:18px;
+    width:25px;
+    height:25px;
+}
+/*----------------------------------------------------生活服务小图标已开始-------------------------------------------------------*/
+
+#lifeserv .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat 0 0;
+}
+
+#lifeserv .cw-icon:hover .ci-left{
+    background:url(../image/money.jpg) no-repeat -25px -125px;
+}
+
+#lifeserv .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat 0 -25px;
+}
+
+#lifeserv .cw-icon:hover .ci-left{
+    background:url(../image/logo.jpg) no-repeat -25px -125px;
+}
+
+#lifeserv .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat 0 -50px;
+}
+
+#lifeserv .cw-icon:hover .ci-left{
+    background:url(image/logo.jpg) no-repeat -25px -125px;
+}
+
+#lifeserv .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat 0 -75px;
+}
+
+#lifeserv .cw-icon:hover .ci-left{
+    background:url(../image/logo.jpg) no-repeat -25px -125px;
+}
+
+#lifeserv .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat 0 -100px;
+}
+
+#lifeserv .cw-icon:hover .ci-left{
+    background:url(../image/logo.jpg) no-repeat -25px -125px;
+}
+
+#lifeserv .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat 0 -125px;
+}
+
+#lifeserv .cw-icon:hover .ci-left{
+    background:url(../image/logo.jpg) no-repeat -25px -125px;
+}
+
+#lifeserv .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat 0 -150px;
+}
+
+#lifeserv .cw-icon:hover .ci-left{
+    background:url(../image/logo.jpg) no-repeat -25px -125px;
+}
+
+#lifeserv .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat 0 -175px;
+}
+
+#lifeserv .cw-icon:hover .ci-left{
+    background:url(../image/logo.jpg) no-repeat -25px -125px;
+}
+
+#lifeserv .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat 0 -200px;
+}
+
+#lifeserv .cw-icon:hover .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat -25px -125px;
+}
+
+#lifeserv .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat 0 -225px;
+}
+
+#lifeserv .cw-icon:hover .ci-left{
+    background:url(../image/logo.jpg) no-repeat -25px -125px;
+}
+
+#lifeserv .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat 0 -250px;
+}
+
+#lifeserv .cw-icon:hover .ci-left{
+    background:url(../image/logo.jpg) no-repeat -25px -125px;
+}
+/*------------------------------------------------------特殊的最后一个--------------------------------------------------------*/
+#lifeserv .fore12 .ci-left{
+    background:url(../image/jianchi.jpg) no-repeat 0 -275px;
+}
+
+#lifeserv .fore12 .cw-icon:hover .ci-left{
+    background:url(../image/money.jpg) no-repeat -25px -25px;
+}
+/*----------------------------------------------------生活服务小图标已完成-------------------------------------------------------*/
+#lifeserv li a:hover span{
+    color:#C81623;
+}
+/*-----------------------------------------------------生活服务小图标下的字体颜色-----------------------------------------------------------*/
+#lifeserv h2,#news h2{
+    font-size:16px;
+}
+/*--------------------------------------------------------生活服务已完成---------------------------------------------------------*/
+#lifeserv .mc-inner{
+    position:absolute;
+    top:0px;/*-28*/
+    left:0px;
+    width:250px;
+    height:180px;
+    background:#000;
+    display:none;/*---------------------------生活服务下的关闭按钮已完成---------------------------------------*/
+}
+
+#lifeserv .mc-inner .close{
+    display:block;
+    position:absolute;
+    right:0;
+    top:0;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    text-align:center;
+    cursor:pointer;
+}
+
+#lifeserv .mc-inner .close:hover{
+    background:#ccc;
+    color:#fff;
+    text-decoration:none;
+}
+/*-----------------------------------------------生活服务下的关闭按钮已完成----------------------------------*/
+#right-pic{
+    position:absolute;
+    right:0px;
+    padding:0;
+    background:rgba(255,255,255,.85);
+    width:250px;
+    height:210px;
+    top:444px;
+}
+#right-pic .mc{
+    background: url(../image/logo.jpg);
+    width:249px;
+    height: 210px;
+    border-radius:10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px 5px #000;
+}
+/*-------------------------------------------------最下面的广告图片已完成------------------------------------------------------------*/
